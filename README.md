@@ -92,7 +92,7 @@ If you have a look at the CSS sections for this task, you notice that there are 
 
 At last we will add a footer
 
-```hmtl
+```html
 <div class="footer">
   <h2>Footer</h2>
 </div>
