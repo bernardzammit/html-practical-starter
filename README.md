@@ -11,14 +11,14 @@ Even the most basic text editor such as Notepad or Notepad ++ can be used.
 
 ### Prerequisites
 
-Install Visual Studio Code Community Edition from https://code.visualstudio.com/
-Refer to: https://www.w3schools.com/html/default.asp 
-For CSS you can use the file provided, however you are free to modify as per your preference.
+1. Install Visual Studio Code Community Edition from https://code.visualstudio.com/
+2. Refer to: https://www.w3schools.com/html/default.asp 
+3. For [CSS](https://github.com/Year-11-2020/html-practical-starter/blob/master/styles.css) you can use the file provided, however you are free to modify as per your preference.
 
 ## Task 1 - Page Title
 
 Every HTML page needs a title. The syntax for a title is 
-```
+```html
 <title>Page Title</title>
 ```
 * Open Visual Studio Code
@@ -30,7 +30,7 @@ Every HTML page needs a title. The syntax for a title is
 A header is usually located at the top of the website or right below a navigation menu. 
 It often contains a logo or the website name. 
 
-```
+```html
 <div class="header">
   <h1>My Website</h1>
   <p>A website created by me.</p>
@@ -47,7 +47,7 @@ The *header* is a class used to style it in the css file.
 
 A navigation bar consists of links to help visitors navigating through your website
 
-```
+```html
 <div class="navbar">
   <a href="#">Link 1</a>
   <a href="#">Link 2</a>
@@ -69,7 +69,7 @@ A navigation bar consists of links to help visitors navigating through your webs
 
 A column layout is a great way of grouping sections and displaying information in a web page.
 
-```
+```html
 <div class="row">
   <div class="side">...</div>
   <div class="main">...</div>
@@ -91,7 +91,8 @@ If you have a look at the CSS sections for this task, you notice that there are 
 ## Task 5 - Page Footer
 
 At last we will add a footer
-```
+
+```hmtl
 <div class="footer">
   <h2>Footer</h2>
 </div>
